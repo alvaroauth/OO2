@@ -1,0 +1,28 @@
+@startuml
+skinparam nodesep 170
+class Twitter{
+    +agregarUsuario(u: Usuario): Boolean
+    +eliminarUsuario(u: Usuario): Boolean
+}
+
+Twitter -->"0..*\nusuariosRegistrados" Usuario
+
+class Usuario{
+    -screenName: String
+    +tuitear(t: Tweet): Boolean
+    +retuitear(t: Tweet): Boolean
+    +eliminarTweet(t: Tweet): boolean
+    +eliminarRetweets(t: Tweet): void
+    +eliminarTodosLosTweets(): void
+}
+
+Usuario -->"0..*\n" Tweet
+Usuario "0\nusuariosRT"<--->"0..*\nretuits" Tweet
+
+class Tweet{
+    -cuerpo: String
+    +eliminarRetuits(): void
+    +agregarUsuarioRT(u: Usuario): void
+}
+
+@enduml

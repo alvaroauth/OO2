@@ -1,36 +1,34 @@
 package ejercicio2;
 
-public class Tijera implements Eleccion{
+public class Papel implements Eleccion{
 
     @Override
     public String contra(Eleccion e) {
-        return e.contraLagarto();
+        return e.contraPapel();
     }
 
     @Override
     public String contraPiedra() {
-        return "Gana piedra";
+        return "Gana papel";
     }
 
     @Override
     public String contraPapel() {
-        return "Gana tijera";
-    }
-
-    @Override
-    public String contraTijera() {
         return "Empate";
     }
 
     @Override
+    public String contraTijera() {
+        return "Gana Tijera";
+    }
+
+    @Override
     public String contraLagarto() {
-        return "Gana tijera";
+        return "Gana lagarto";
     }
 
     @Override
     public String contraSpock() {
-        return "Gana spock";
+        return "Gana papel";
     }
-}
-{
 }
