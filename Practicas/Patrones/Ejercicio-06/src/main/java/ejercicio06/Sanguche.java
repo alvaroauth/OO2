@@ -13,4 +13,10 @@ public class Sanguche {
     public double getPrecio(){
         return ingredientes.stream().mapToDouble(i -> i.getPrecio()).sum();
     }
+
+    public String getIngredientes(){
+        StringBuilder aux = new StringBuilder();
+        ingredientes.forEach(i -> aux.append("- ").append(i.getNombre()).append("\n"));
+        return aux.toString();
+    }
 }
