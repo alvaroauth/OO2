@@ -1,7 +1,7 @@
 package ejercicio08;
 
 import java.time.Duration;
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class InProgress extends Estado{
 
@@ -18,7 +18,7 @@ public class InProgress extends Estado{
 
     @Override
     public Duration workedTime(ToDoItem tdi) {
-        return Duration.between(tdi.getInicio(), LocalDate.now());
+        return Duration.between(tdi.getInicio(), LocalDateTime.now());
     }
 
     @Override
