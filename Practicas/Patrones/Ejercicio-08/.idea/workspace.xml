@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c309485b-5251-466e-a994-2ec96ce0e98b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Ejercicio-05/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejercicio-05/src/main/java/ejercicio05/ElementoQuimico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PersonaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Ejercicio-03/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-03/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio-05/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio-05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio-05/src/main/java/ejercicio05/ElementoQuimico.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-05/src/main/java/ejercicio05/ElementoQuimico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio08/Paused.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio08/Paused.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio08/Pending.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio08/Pending.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Recurso-Biblioteca/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Recurso-Biblioteca/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Recurso-Biblioteca/.idea/encodings.xml" beforeDir="false" />
@@ -85,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1777313382503</updated>
       <workItem from="1777313383586" duration="4386000" />
-      <workItem from="1777318674394" duration="1706000" />
+      <workItem from="1777318674394" duration="2021000" />
     </task>
     <servers />
   </component>

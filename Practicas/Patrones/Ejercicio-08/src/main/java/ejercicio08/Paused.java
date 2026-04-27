@@ -11,6 +11,12 @@ public class Paused extends Estado{
     }
 
     @Override
+    public Estado finish(ToDoItem tdi){
+        tdi.registrarFin();
+        return new Finished();
+    }
+
+    @Override
     public Duration workedTime(ToDoItem tdi) {
         return Duration.between(tdi.getInicio(), LocalDate.now());
     }

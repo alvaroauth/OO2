@@ -2,14 +2,15 @@ package ejercicio08;
 
 import java.time.LocalDate;
 import java.time.Duration;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ToDoItem {
     private String nombre;
     private Estado estado;
-    private LocalDate inicio;
-    private LocalDate fin;
+    private LocalDateTime inicio;
+    private LocalDateTime fin;
     private List<String> comentarios;
 
     public ToDoItem(String name){
@@ -34,24 +35,24 @@ public class ToDoItem {
         return estado.workedTime(this);
     }
 
-    public void registrarInicio(){
-        this.inicio = LocalDate.now();
-    }
-
-    public void addCOmentario(String comentario){
+    public void addComment(String comentario){
         if (this.estado.permiteComentarios())
             this.comentarios.add(comentario);
     }
 
-    public void registrarFin(){
-        this.fin = LocalDate.now();
+    void registrarInicio(){
+        this.inicio = LocalDateTime.now();
     }
 
-    public LocalDate getInicio() {
+    void registrarFin(){
+        this.fin = LocalDateTime.now();
+    }
+
+    LocalDateTime getInicio() {
         return inicio;
     }
 
-    public LocalDate getFin() {
+    LocalDateTime getFin() {
         return fin;
     }
 }

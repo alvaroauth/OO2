@@ -6,13 +6,8 @@ public class Pending extends Estado{
 
     @Override
     public Estado start(ToDoItem tdi) {
+        tdi.registrarInicio();
         return new InProgress();
-    }
-
-    @Override
-    public Estado finish(ToDoItem tdi){
-        tdi.registrarFin();
-        return new Finished();
     }
 
     @Override
