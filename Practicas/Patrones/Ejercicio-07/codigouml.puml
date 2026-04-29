@@ -1,0 +1,68 @@
+@startuml
+abstract class Producto{
+    -fechaOperacion: Date
+    +<<abstract>>retornoInversion(montoInicial: Real): Real
+}
+
+class CompraBonoAltoRiesgo extends Producto{
+    -parking: Integer
+    +<<create>> CompraBonoAltoRiesgo(parking: Integer)
+    +retornoInversion(montoInicial: Real): Real
+}
+
+class CompraBonoBajoRiesgo extends Producto{
+    -parking: Integer
+    +<<create>> CompraBonoBajoRiesgo(parking: Integer)
+    +retornoInversion(montoInicial: Real): Real
+}
+
+class CompraDolares extends Producto{
+    -valorCompra: Real
+    +<<create>> CompraDolares(valorCompra: Real)
+    +retornoInversion(montoInicial: Real): Real
+}
+
+class CompraPesos extends Producto{
+    -valorCompra: Real
+    +<<create>> CompraPesos(valorCompra: Real)
+    +retornoInversion(montoInicial: Real): Real
+}
+
+class PlazoFijo extends Producto{
+    -cantDias: Integer
+    -interes: Real
+    +<<create>> PlazoFijo(cantDias: Integer, interes: Real)
+    +retornoInversion(montoInicial: Real): Real
+}
+
+class ProductoCombinado extends Producto{
+    +<<create>> ProductoCombinado(productos: Producto[*])
+    +retornoInversion(montoInicial: Real): Real
+}
+
+abstract class Membresia{
+    +armarProducto1(montoDolares: Real, montoPesos: Real): ProductoCombinado
+    +armarProducto2(montoDolares: Real, montoPesos: Real): ProductoCombinado
+    +armarProducto3(): ProductoCombinado
+    +armarProducto4(): ProductoCombinado
+    #getDiasMinimo(): Integer
+    #getInteres(): Real
+    #getParking(): Integer
+}
+
+class Silver extends Membresia{
+    #getDiasMinimo(): Integer
+    #getInteres(): Real
+    #getParkin(): Integer
+}
+
+class Gold extends Membresia{
+    +armarProducto3(): ProductoCombinado
+    +armarProducto4(): ProductoCombinado
+    #getDiasMinimo(): Integer
+    #getInteres(): Real
+    #getParkin(): Integer
+}
+
+ProductoCombinado "1"-->"*" Producto: productos
+@enduml

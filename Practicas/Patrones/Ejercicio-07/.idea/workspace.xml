@@ -1,9 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectId" id="3CxyPSJUckbIxPHa4Tl66RTUQYH" />
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;/home/alvaro/.m2/repository/archetype-catalog.xml&quot;
-  }
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a135d832-41ad-4e3a-b491-385dfa2e8e2b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Ejercicio-03/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-03/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio-05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio-05/src/main/java/ejercicio05/ElementoQuimico.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-05/src/main/java/ejercicio05/ElementoQuimico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio-08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-08/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recurso-Biblioteca/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recurso-Biblioteca/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recurso-Biblioteca/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recurso-Biblioteca/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recurso-Biblioteca/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recurso-Biblioteca/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recurso-Biblioteca/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recurso-Biblioteca/src/main/java/ar/edu/unlp/info/oo2/biblioteca/Biblioteca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recurso-Biblioteca/src/main/java/ar/edu/unlp/info/oo2/biblioteca/Exporter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recurso-Biblioteca/src/main/java/ar/edu/unlp/info/oo2/biblioteca/Socio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recurso-Biblioteca/src/main/java/ar/edu/unlp/info/oo2/biblioteca/VoorheesExporter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recurso-Biblioteca/src/test/java/ar/edu/unlp/info/oo2/biblioteca/BibliotecaTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="UML Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
 }</component>
+  <component name="ProjectId" id="3CxyPSJUckbIxPHa4Tl66RTUQYH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Object",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/alvaro/Escritorio/Facultad/OO2/Practicas/Patrones/Ejercicio-07",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a135d832-41ad-4e3a-b491-385dfa2e8e2b" name="Changes" comment="" />
+      <created>1777341496422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777341496422</updated>
+      <workItem from="1777341497511" duration="2244000" />
+      <workItem from="1777382338969" duration="3627000" />
+      <workItem from="1777394055436" duration="974000" />
+      <workItem from="1777409338177" duration="671000" />
+      <workItem from="1777427805018" duration="561000" />
+      <workItem from="1777428472418" duration="292000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>
