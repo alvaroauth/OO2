@@ -1,0 +1,37 @@
+@startuml
+interface Elemento{
+    +comparar(otro: Elemento): Boolean
+    +comparar(m: Mixta): Boolean
+    +comparar(a: Agua): Boolean
+    +comparar(t: Tierra): Boolean
+}
+
+class Agua implements Elemento{
+    +comparar(otro: Elemento): Boolean
+    +comparar(m: Mixta): Boolean
+    +comparar(a: Agua): Boolean
+    +comparar(t: Tierra): Boolean
+}
+
+class Tierra implements Elemento{
+    +comparar(otro: Elemento): Boolean
+    +comparar(m: Mixta): Boolean
+    +comparar(a: Agua): Boolean
+    +comparar(t: Tierra): Boolean
+}
+
+class Pantano implements Elemento{
+    +equals(t: Elemento): Boolean
+    +esMixta(t: Mixta): Boolean
+}
+
+class Mixta implements Elemento{
+    +<<create>> Mixta(elementos: Elemento[*])
+    +comparar(otro: Elemento): Boolean
+    +comparar(m: Mixta): Boolean
+    +comparar(a: Agua): Boolean
+    +comparar(t: Tierra): Boolean
+}
+
+Mixta "1"-->"*" Elemento: elementos
+@enduml

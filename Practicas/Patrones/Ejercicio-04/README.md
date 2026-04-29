@@ -1,1 +1,2 @@
-Arquetipos de Orientacion a Objetos
+# UML
+![UML del ejercicio](UML.png)
