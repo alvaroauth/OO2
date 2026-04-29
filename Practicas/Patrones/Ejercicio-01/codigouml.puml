@@ -1,0 +1,35 @@
+@startuml
+class Biblioteca{
+    +<<create>> Biblioteca()
+    +agregarSocio(socio: Socio): void
+    +exportarSocios(): String
+    +setExporter(exporter: Exporter): void
+}
+
+class Socio{
+    -nombre: String
+    -legajo: String
+    -email: String
+    +<<create>> Socio(nombre: String, email: String, legajo: String)
+}
+
+interface Exporter{
+    +exportar(socios: Socio[*]): String
+}
+
+class JSONObjectAdapter implements Exporter{
+    +exportar(socios: Socio[*]): String
+}
+
+class VoorheesExporter implements Exporter{
+    -exportar(socio: Socio): String
+    +exportar(socios: Socio[*]): String
+}
+
+class JSONArray{
+    +toJSONString(): String
+}
+Biblioteca "1"->"*" Socio: socios
+Biblioteca --> Exporter: exporter
+JSONArray  <-- JSONObjectAdapter: uses
+@enduml

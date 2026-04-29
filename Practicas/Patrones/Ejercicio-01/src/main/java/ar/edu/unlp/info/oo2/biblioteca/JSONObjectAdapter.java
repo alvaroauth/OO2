@@ -5,8 +5,6 @@ import org.json.simple.JSONObject;
 import java.util.List;
 
 public class JSONObjectAdapter implements Exporter{
-    private String adapter;
-
     @Override
     public String exportar(List<Socio> socios) {
         JSONArray jsonArray = new JSONArray();
