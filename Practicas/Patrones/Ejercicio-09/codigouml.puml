@@ -1,0 +1,44 @@
+@startuml
+class Decodificador{
+    +cambiarEstrategia(e: Estrategia): void
+    +recomendarPeliculas(p: Pelicula): Pelicula[*]
+    +verPelicula(p: Pelicula): void
+    +agregarPelicula(p: Pelicula): void
+    +calcularNoVistas(): Pelicula[*]
+    +calcularSimilaresNoVistas(): Pelicula[*]
+}
+
+class Pelicula{
+    -titulo: String
+    -estreno: Integer
+    -puntaje: Real
+    +<<create>> Pelicula(t: String, e: Integer, p: Real)
+}
+
+abstract class Estrategia{
+    +recomendarPeliculas(d: Decodificador): Pelicula[*]
+    #<<abstract>>comparadorPeliculas(): Comparator
+    #<<abstract>>listaUsada(d: Decodificador)): Pelicula[*]
+}
+
+class Novedad extends Estrategia{
+    #comparadorPeliculas(): Comparator
+    #listaUsada(d: Decodificador)): Pelicula[*]
+}
+
+class Similaridad extends Estrategia{
+    #comparadorPeliculas(): Comparator
+    #listaUsada(d: Decodificador)): Pelicula[*]
+}
+
+class Puntaje extends Estrategia{
+    #comparadorPeliculas(): Comparator
+    #listaUsada(d: Decodificador)): Pelicula[*]
+}
+
+Decodificador "1"->"*" Pelicula:peliculas
+Decodificador "1"->"*" Pelicula:vistas
+Decodificador --> Estrategia
+
+Pelicula "1"->"*" Pelicula: similares
+@enduml
