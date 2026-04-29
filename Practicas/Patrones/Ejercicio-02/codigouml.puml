@@ -1,0 +1,38 @@
+@startuml
+abstract class Empleado{
+    -nombre: String
+    +<<create>> Empleado(nombre: String)
+    +getSueldo(): Real
+    #<<abstract>>sueldoBasico(): Real
+    #<<abstract>>sueldoAdicional(): Real
+    #<<abstract>>descuento(): Real
+}
+
+class EmpleadoPasante extends Empleado{
+    -horasTrabajadas: Real
+    -casado: Boolean
+    -cantHijos: Integer
+    +<<create>> EmpleadoPasante(nombre: String, horasTrabajadas: Real, casado: Boolean, cantHijos: Integer)
+    #sueldoBasico(): Real
+    #sueldoAdicional(): Real
+    #descuento(): Real
+}
+
+class EmpleadoPlanta extends Empleado{
+    -inicio: LocalDate
+    -casado: Boolean
+    -cantHijos: Integer
+    +<<create>> EmpleadoPlanta(nombre: String, inicio: LocalDate, casado: Boolean, cantHijos: Integer)
+    #sueldoBasico(): Real
+    #sueldoAdicional(): Real
+    #descuento(): Real
+}
+
+class EmpleadoTemporario extends Empleado{
+    -cantExamenes: Integer
+    +<<create>> EmpleadoTemporario(nombre: String, cantExamenes: Integer)
+    #sueldoBasico(): Real
+    #sueldoAdicional(): Real
+    #descuento(): Real
+}
+@enduml
