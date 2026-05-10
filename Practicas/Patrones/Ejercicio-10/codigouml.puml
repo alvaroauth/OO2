@@ -1,0 +1,54 @@
+@startuml
+class Calculadora{
+    -acumulado: Real
+    +getResultado(): String
+    +borrar(): void
+    +setValor(valor: Real): void
+    +mas(): void
+    +menos(): void
+    +por(): void
+    +dividido(): void
+}
+
+abstract class Estado{
+    +getResultado(): Estado
+    +<<abstract>> setValor(x: Real, c: Calculadora): Estado
+    +<<abstract>> operacionPendiente(op: Operacion, c: Calculadora): Estado
+}
+
+class Inicial extends Estado{
+    +setValor(x: Real, c: Calculadora): Estado
+    +operacionPendiente(op: Operacion, c: Calculadora): Estado
+}
+
+class EsperandoValor extends Estado{
+    +<<create>> EsperandoValor(Operacion p)
+    +setValor(x: Real, c: Calculadora): Estado
+    +operacionPendiente(op: Operacion, c: Calculadora): Estado
+}
+
+class Error extends Estado{
+    +setValor(x: Real, c: Calculadora): Estado
+    +operacionPendiente(op: Operacion, c: Calculadora): Estado
+    +getResultado(): String
+}
+
+interface Operacion{
+    +aplicarOperacion(x: Real, y: Real): Real
+}
+
+class Mas implements Operacion{
+    +aplicarOperacion(x: Real, y: Real): Real
+}
+class Menos implements Operacion{
+    +aplicarOperacion(x: Real, y: Real): Real
+}
+class Por implements Operacion{
+    +aplicarOperacion(x: Real, y: Real): Real
+}
+class Dividido implements Operacion{
+    +aplicarOperacion(x: Real, y: Real): Real
+}
+Calculadora -> Estado
+EsperandoValor --> Operacion
+@enduml
