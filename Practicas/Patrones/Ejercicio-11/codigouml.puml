@@ -1,0 +1,53 @@
+@startuml
+class Filesystem{
+    +tamanoTotalOcupado(): Integer
+    +archivoMasGrande(): Archivo
+    +archivoMasNuevo(): Archivo
+    +buscar(nombre: String): Elemento
+    +buscarTodos(nombre: String): Elemento[*]
+    +listadoDeContenido(): String
+}
+
+interface Elemento{
+    +getNombre(): String
+    +getFechaCreacion(): Date
+    +archivoMasGrande(): Archivo
+    +archivoMasNuevo(): Archivo
+    +buscar(nombre: String): Elemento
+    +buscarTodos(nombre: String): Elemento[*]
+    +listar(pathPadre: String, StringBuilder salida): void
+    +add(e: Elemento): Elemento
+    +remove(e: Elemento): Elemento
+}
+
+class Archivo implements Elemento{
+    -nombre: String
+    -tamano: int
+    -fechaCreacion: Date
+    +getNombre(): String
+    +getFechaCreacion(): Date
+    +archivoMasGrande(): Archivo
+    +archivoMasNuevo(): Archivo
+    +buscar(nombre: String): Elemento
+    +buscarTodos(nombre: String): Elemento[*]
+    +listar(pathPadre: String, StringBuilder salida): void
+    +add(Elemento e): Elemento
+    +remove(Elemento e): Elemento
+}
+
+class Directorio implements Elemento{
+    +getNombre(): String
+    +getFechaCreacion(): Date
+    +archivoMasGrande(): Archivo
+    +archivoMasNuevo(): Archivo
+    +buscar(nombre: String): Elemento
+    +buscarTodos(nombre: String): Elemento[*]
+    +listar(pathPadre: String, StringBuilder salida): void
+    +add(Elemento e): Elemento
+    +remove(Elemento e): Elemento
+}
+
+
+Filesystem "1"->"*" Elemento
+Directorio "1"-->"*" Elemento
+@enduml

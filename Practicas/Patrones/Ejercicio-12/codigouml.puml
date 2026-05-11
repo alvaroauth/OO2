@@ -1,0 +1,47 @@
+@startuml
+class Usuario{
+    +<<create>> Usuario(n: String)
+    -nombre: String
+}
+
+class AutoEnAlquiler{
+    +<<create>>AutoEnAlquiler(pxd: Real, cp: Integer, m: String, p: Politica)
+    -precioPorDia: Real
+    -cantidadPlazas: Integer
+    -marca: String
+    +cambiarPolitica(p: Politica): void
+}
+
+class Reserva{
+    +<<create>>Reserva(dias: Integer, fecha: Date, a: AutoEnAlquiler, c: Usuario, p: Politica)
+    -cantidadDias: Integer
+    -fecha: Date
+    +montoAPagar(): Real
+    +montoAReembolsar(): Real
+}
+
+abstract class PoliticaCancelacion{
+    +calcularReembolso(monto: Real, fecha: Date)
+    #<<abstract>>calcularPenalizacion(fecha: Date): Real
+}
+
+class PoliticaFlexible extends PoliticaCancelacion{
+    #calcularPenalizacion(fecha: Date): Real
+}
+
+class PoliticaModerada extends PoliticaCancelacion{
+    #calcularPenalizacion(fecha: Date): Real
+}
+
+class PoliticaEstricta extends PoliticaCancelacion{
+    #calcularPenalizacion(fecha: Date): Real
+}
+
+Usuario --> AutoEnAlquiler: autosEnAlquiler *
+'AutoEnAlquiler <- Usuario: autosEnAlquiler *
+'AutoEnAlquiler <- Reserva
+Reserva -> AutoEnAlquiler
+Reserva -> Usuario: conductor
+AutoEnAlquiler --> PoliticaCancelacion
+Reserva --> PoliticaCancelacion
+@enduml
