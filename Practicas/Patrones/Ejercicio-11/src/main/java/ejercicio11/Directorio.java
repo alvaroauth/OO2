@@ -2,6 +2,7 @@ package ejercicio11;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class Directorio implements Elemento{
@@ -36,17 +37,35 @@ public class Directorio implements Elemento{
 
     @Override
     public Archivo archivoMasGrande() {
-        return elementos.stream().max(e -> e.get);
+        return elementos.stream().map(e -> e.archivoMasGrande())
+                .max(Comparator.comparingDouble(a -> a.getTamanio()))
+                .orElse(new NullArchivo());
     }
 
     @Override
     public Archivo archivoMasNuevo() {
-        return null;
+        return this.elementos.stream()
+                .map(Elemento::archivoMasNuevo)
+                .max(Comparator.comparing(Archivo::getFechaCreacion))
+                .orElse(new NullArchivo());
     }
 
     @Override
     public Elemento buscar(String nombre) {
-        return ;
+        if (this.nombre.equals(nombre)){
+            return this;
+        }
+        return this.elementos.stream()
+                .map(e -> e.buscar(nombre))
+                .filter(e -> !e.getNombre().equals("Vacio"))
+                .findFirst().orElse(new NullArchivo());
+
+        /*
+        return this.elementos.stream()
+                .map(e -> e.buscar(nombre))
+                .filter(e -> !(e -> e instanceof NullArchivo))  // RAROOOOOOOOOOO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                .findFirst().orElse(new NullArchivo());
+         */
     }
 
     @Override
@@ -67,8 +86,6 @@ public class Directorio implements Elemento{
 
     @Override
     public Elemento remove(Elemento e) {
-        return null;
+
     }
-
-
 }

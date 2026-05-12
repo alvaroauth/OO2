@@ -1,16 +1,14 @@
 package ejercicio11;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 public class Archivo implements Elemento{
     private String nombre;
-    private int tamanio;
+    private double tamanio;
     private LocalDate fechaCreacion;
 
-    public Archivo(String nombre, int tamanio) {
+    public Archivo(String nombre, double tamanio) {
         this.nombre = nombre;
         this.tamanio = tamanio;
         this.fechaCreacion = LocalDate.now();
@@ -41,14 +39,15 @@ public class Archivo implements Elemento{
         if (nombre.equals(this.nombre)) {
             return this;
         }
-        return null;
+        return new NullArchivo();
     }
 
     @Override
     public List<Elemento> buscarTodos(String nombre) {
         if (nombre.equals(this.nombre)) {
-            return new List.of(this);
+            return List.of(this);
         }
+        return null;
     }
 
     @Override
@@ -63,11 +62,15 @@ public class Archivo implements Elemento{
 
     @Override
     public Elemento remove(Elemento e) {
-        return new Archivo("Vacio", 0); //Aca puedo meter un null object
+        return new NullArchivo(); //Aca puedo meter un null object
     }
 
     private String nombreSinExtension(){
         String[] aux = this.getNombre().split("\\.");
         return aux[0];
+    }
+
+    public double getTamanio() {
+        return this.tamanio;
     }
 }

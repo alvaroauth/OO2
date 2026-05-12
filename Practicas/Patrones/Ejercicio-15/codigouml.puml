@@ -1,0 +1,36 @@
+@startuml
+class Mensajero{
+    +enviar(mensaje: String)
+    +recibir(mensaje: String)
+}
+
+interface Algoritmo{
+    +cifrar(msj: String): String
+    +descifrar(msj: String): String
+}
+
+class FeistelCipher{
+    -key: String
+    +<<create>>FeistelCipher(key:String)
+    +encode(message: String): String
+}
+
+class RC4{
+    +encrypt(message: String, key: String): String
+    +decrypt(mensajeCifrado: String, key: String): String
+}
+
+class FeistelCipherAdapter implements Algoritmo{
+    +cifrar(msj: String): String
+    +descifrar(msj: String): String
+}
+
+class RC4Adapter implements Algoritmo{
+    -key: String
+    +cifrar(msj: String): String
+    +descifrar(msj: String): String
+}
+Mensajero -> Algoritmo
+FeistelCipherAdapter ..> FeistelCipher: <<uses>>
+RC4Adapter ..> RC4: <<uses>>
+@enduml

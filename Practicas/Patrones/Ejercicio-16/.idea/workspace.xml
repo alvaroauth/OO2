@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24b1788e-b58f-41a0-835f-06789ecd3b8a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-14/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-14/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-14/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-14/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-14/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-14/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-14/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-14/src/test/java/org/example/PersonaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-15/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-15/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-15/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-15/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-15/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-15/src/test/java/org/example/PersonaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PersonaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio-11/src/main/java/ejercicio11/Archivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-11/src/main/java/ejercicio11/Archivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio-11/src/main/java/ejercicio11/Directorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-11/src/main/java/ejercicio11/Directorio.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="12" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3Ddzfbi8XPVQhlOX9XYZLzbPv68" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/alvaro/.m2/catalogo-facultad.xml",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24b1788e-b58f-41a0-835f-06789ecd3b8a" name="Changes" comment="" />
+      <created>1778626842271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778626842271</updated>
+      <workItem from="1778626843416" duration="84000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
