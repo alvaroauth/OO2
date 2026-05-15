@@ -1,0 +1,43 @@
+@startuml
+interface EstadoExcursion{
+    +agregarInsicrpto(u: Usuario): EstadoExcursion
+    +informacionEspecifica(e: Excursion): String
+}
+
+class Excursion{
+    -nombre: String
+    -inicio: Date
+    -fin: Date
+    -puntoEncuentro: String
+    -costo: Real
+    -cupoActual: Integer
+    -cupoMaximo: Integer
+    -cupoMinimo: Integer
+    +getInformacion(): String
+    +agregarInsicrpto(u: Usuario): void
+    #inscribirNormal(u: Usuario): void
+    #inscribirListaEspera(u: Usuario): void
+}
+
+class Usuario{
+    -nombre: String
+    -apellido: String
+    -email: String
+}
+
+class SinCupoMinimo implements EstadoExcursion{
+    +informacionEspecifica(e: Excursion): String
+}
+
+class MinimoAlcanzado implements EstadoExcursion{
+    +informacionEspecifica(e: Excursion): String
+}
+
+class Lleno implements EstadoExcursion{
+    +informacionEspecifica(e: Excursion): String
+}
+
+Excursion --> EstadoExcursion
+Excursion ->"*" Usuario: listaEspera
+Excursion ->"*" Usuario: inscriptos
+@enduml
