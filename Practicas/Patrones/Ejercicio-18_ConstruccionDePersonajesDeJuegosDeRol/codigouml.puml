@@ -1,0 +1,63 @@
+@startuml
+class Personaje{
+    -nombre: String
+    -vida: Integer
+    +pelearContra(defensor: Personaje): void
+    #recibirDanio(d: Integer) void
+    #puedeCombatir(): Boolean
+}
+
+interface Arma{
+    +pelearContraCuero(): Integer
+    +pelearContraHierro(): Integer
+    +pelearContraAcero(): Integer
+}
+
+interface Armadura{
+    +recibirDaño(Arma a): Integer
+}
+
+class Habilidad{
+    -nombre: String
+}
+
+class FabricaPersonajes{
+    +crearGuerrero(nom: String): Personaje
+    +crearArquero(nom: String): Personaje
+    +crearMago(nom: String): Personaje
+}
+
+class Espada implements Arma{
+    +pelearContraCuero(): Integer
+    +pelearContraHierro(): Integer
+    +pelearContraAcero(): Integer
+}
+
+class Arco implements Arma{
+    +pelearContraCuero(): Integer
+    +pelearContraHierro(): Integer
+    +pelearContraAcero(): Integer
+}
+
+class Baston implements Arma{
+    +pelearContraCuero(): Integer
+    +pelearContraHierro(): Integer
+    +pelearContraAcero(): Integer
+}
+
+class Cuero implements Armadura{
+    +recibirDaño(Arma a): Integer
+}
+
+class Hierro implements Armadura{
+    +recibirDaño(Arma a): Integer
+}
+
+class Acero implements Armadura{
+    +recibirDaño(Arma a): Integer
+}
+Personaje --> Arma
+Personaje --> Armadura
+Personaje "1"-->"*"  Habilidad
+
+@enduml
