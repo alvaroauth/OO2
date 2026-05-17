@@ -1,0 +1,27 @@
+@startuml
+top to bottom direction
+
+interface DatabaseAccess{
+    +getSearchResults(queryString: String): String[*]
+    +insertNewRow(row: String[*]): Integer
+}
+together{
+    class DatabaseRealAccess implements DatabaseAccess {
+        +getSearchResults(queryString: String): String[*]
+        +insertNewRow(row: String[*]): Integer
+    }
+    class DatabaseProxyAccess implements DatabaseAccess {
+        +getSearchResults(queryString: String): String[*]
+        +insertNewRow(row: String[*]): Integer
+    }
+}
+
+class Usuario{
+    -nombre: String
+    -autenticado: boolean
+    +estaAutenticado(): boolean
+}
+
+DatabaseProxyAccess --> DatabaseAccess
+DatabaseProxyAccess --> Usuario
+@enduml
