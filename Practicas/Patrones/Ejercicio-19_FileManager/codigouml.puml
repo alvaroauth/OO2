@@ -1,0 +1,61 @@
+@startuml
+top to bottom direction
+
+interface VistaArchivo {
+    +prettyPrint(): String
+}
+
+together {
+    class VistaVacia implements VistaArchivo {
+        +prettyPrint(): String
+    }
+    abstract class VistaDecorador implements VistaArchivo {
+        #<<create>> VistaDecorador(a: FileOO2, v: VistaArchivo)
+        +prettyPrint(): String
+        #getArchivo(): FileOO2
+        #getWrapped(): VistaArchivo
+        #<<abstract>> aspect(): String
+    }
+}
+
+together {
+    class NombreDecorador extends VistaDecorador {
+        +<<create>> NombreDecorador(...)
+        +aspect(): String
+    }
+    class ExtensionDecorador extends VistaDecorador {
+        +<<create>> ExtensionDecorador(...)
+        +aspect(): String
+    }
+    class TamanioDecorador extends VistaDecorador {
+        +<<create>> TamanioDecorador(...)
+        +aspect(): String
+    }
+    class CreacionDecorador extends VistaDecorador {
+        +<<create>> CreacionDecorador(...)
+        +aspect(): String
+    }
+    class ModificacionDecorador extends VistaDecorador {
+        +<<create>> ModificacionDecorador(...)
+        +aspect(): String
+    }
+    class PermisosDecorador extends VistaDecorador {
+        +<<create>> PermisosDecorador(...)
+        +aspect(): String
+    }
+}
+
+class FileOO2 {
+    -nombre: String
+    -extension: String
+    -tamanio: Integer
+    -creacion: Date
+    -modificacion: Date
+    -permisos: String
+    +<<create>> FileOO2(...)
+}
+
+VistaDecorador --> VistaArchivo
+VistaDecorador -right-> FileOO2
+
+@enduml
