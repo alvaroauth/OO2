@@ -1,0 +1,55 @@
+@startuml
+interface WeatherData {
+    + getTemperatura(): double
+    + getPresion(): double
+    + getRadiacionSolar(): double
+    + getTemperaturas(): List<Double>
+    + displayData(): String
+}
+
+class HomeWeatherStation implements WeatherData {
+    + getTemperatura(): double
+    + getPresion(): double
+    + getRadiacionSolar(): double
+    + getTemperaturas(): List<Double>
+    + displayData(): String
+}
+
+abstract class WeatherDecorador implements WeatherData {
+    - wrapped: WeatherData
+    + <<create>>WeatherDecorador(wrapped: WeatherData)
+    # getWrapped(): WeatherData
+    + getTemperatura(): double
+    + getPresion(): double
+    + getRadiacionSolar(): double
+    + getTemperaturas(): List<Double>
+    + displayData(): String
+    # <<abstract>> agregado(): String
+}
+
+class CelsiusDecorador extends WeatherDecorador {
+    + <<create>>CelsiusDecorador(wrapped: WeatherData)
+    - aCelsius(f: double): double
+    + getTemperatura(): double
+    + getTemperaturas(): List<Double>
+    + displayData(): String
+    # agregado(): String
+}
+
+class MaxTempDecorador extends WeatherDecorador {
+    + <<create>>MaxTempDecorador(wrapped: WeatherData)
+    # agregado(): String
+}
+
+class MinTempDecorador extends WeatherDecorador {
+    + <<create>>MinTempDecorador(wrapped: WeatherData)
+    # agregado(): String
+}
+
+class PromTempDecorador extends WeatherDecorador {
+    + <<create>>PromTempDecorador(wrapped: WeatherData)
+    # agregado(): String
+}
+
+WeatherDecorador --> WeatherData : wrapped
+@enduml
