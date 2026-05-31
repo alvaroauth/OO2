@@ -1,0 +1,67 @@
+@startuml
+class Afiliado{
+    -nombre: String
+    -familiaresACargo: Integer
+    -salario: Real
+    -fechaNacimiento: Real
+    +calcularMonto(): Real
+    +setPlanMedico(plan: PlanMedico): void
+}
+
+abstract class PlanMedico{
+    -fechaContratacion: Date
+    +getCostoMensual(): Real
+    #<<abstract>>getMontoFijo(): Real
+    #<<abstract>>getCargoFamiliar(): Real
+    #<<abstract>>getCostoCoberturaViajera(): Real
+    #<<abstract>>getSeguroInternacion(): Real
+
+}
+
+interface ICoseguro{
+    +getDescuento(): Real
+    +getAntiguedad(): Integer
+    +getMontoCoberturaViajes(): Real
+}
+
+class Coseguro implements ICoseguro{
+    -nombre: String
+    -descuento: Real
+    -fechaIngreso: Date
+    -montoCoberturaViajes: Real
+    +getDescuento(): Real
+    +getAntiguedad(): Integer
+    +getMontoCoberturaViajes(): Real
+}
+
+class NullCoseguro implements ICoseguro{
+    +getDescuento(): Real
+    +getAntiguedad(): Integer
+    +getMontoCoberturaViajes(): Real
+}
+
+class PlanMedicoObligatorio extends PlanMedico{
+    #getMontoFijo(): Real
+    #getCargoFamiliar(): Real
+    #getCostoCoberturaViajera(): Real
+    #getSeguroInternacion(): Real
+}
+
+class PlanIntegral extends PlanMedico{
+    #getMontoFijo(): Real
+    #getCargoFamiliar(): Real
+    #getCostoCoberturaViajera(): Real
+    #getSeguroInternacion(): Real
+}
+
+class PlanPremium extends PlanMedico{
+    #getMontoFijo(): Real
+    #getCargoFamiliar(): Real
+    #getCostoCoberturaViajera(): Real
+    #getSeguroInternacion(): Real
+}
+
+Afiliado --> ICoseguro
+PlanMedico <- Afiliado
+PlanMedico -> ICoseguro
+@enduml

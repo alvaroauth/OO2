@@ -7,6 +7,6 @@ public class MaxTempDecorador extends WeatherDecorador{
 
     @Override
     protected String agregado() {
-        return "Maximo: " + (this.getTemperaturas().stream().mapToDouble(t -> t).max().orElse(0.0));
+        return "Maximo: " + (this.getWrapped().getTemperaturas().stream().mapToDouble(t -> t).max().orElse(0.0));
     }
 }

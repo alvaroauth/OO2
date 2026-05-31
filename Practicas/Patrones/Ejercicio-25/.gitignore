@@ -22,9 +22,6 @@ target/
 .springBeans
 .sts4-cache
 
-### Java compiler ###
-*.class
-
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/

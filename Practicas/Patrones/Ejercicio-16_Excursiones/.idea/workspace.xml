@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24b1788e-b58f-41a0-835f-06789ecd3b8a" name="Changes" comment="" />
+    <list default="true" id="24b1788e-b58f-41a0-835f-06789ecd3b8a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-24_AccesoBajoDemanda/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-24_AccesoBajoDemanda/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-24_AccesoBajoDemanda/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-24_AccesoBajoDemanda/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-24_AccesoBajoDemanda/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio-19_FileManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-19_FileManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio-22_FiltrosDeImagenes/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-22_FiltrosDeImagenes/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +66,7 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/alvaro/.m2/catalogo-facultad.xml",
+    "last_opened_file_path": "/home/alvaro/Escritorio/Facultad/OO2/Practicas/Patrones/Ejercicio-16_Excursiones",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,6 +87,7 @@
       <workItem from="1778627041968" duration="1981000" />
       <workItem from="1778778414885" duration="13270000" />
       <workItem from="1778859254926" duration="25000" />
+      <workItem from="1779146663836" duration="375000" />
     </task>
     <servers />
   </component>
