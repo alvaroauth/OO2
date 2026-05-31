@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 public class Automovil extends Prenda{
     private static final double LIQUIDEZ = 0.7;
+    private static final double PERDIDA_ANUAL = 0.10;
 
     private int modelo;
     private double kilometraje;
@@ -17,12 +18,8 @@ public class Automovil extends Prenda{
 
     @Override
     public double getValor(){
-        double aux = costo0km;
-        int cant = LocalDate.now().getYear() - modelo;
-        for(int i = 0; i < cant; i++){
-            aux -= aux*0.10;
-        }
-        return aux;
+        int antiguedad = Math.max(0, LocalDate.now().getYear() - modelo);
+        return costo0km * Math.pow(1 - PERDIDA_ANUAL, antiguedad);
     }
 
     @Override
