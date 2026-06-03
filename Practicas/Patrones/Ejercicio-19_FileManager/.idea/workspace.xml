@@ -5,15 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a152799b-1872-498d-a642-0fe214f26187" name="Changes" comment="Ejercicio 19: UML, implementacion y tests">
-      <change afterPath="$PROJECT_DIR$/../Ejercicio-21_EstacionMeteorologica/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejercicio-21_EstacionMeteorologica/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejercicio-21_EstacionMeteorologica/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejercicio-21_EstacionMeteorologica/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejercicio-21_EstacionMeteorologica/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejercicio-21_EstacionMeteorologica/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejercicio-21_EstacionMeteorologica/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejercicio-21_EstacionMeteorologica/src/test/java/org/example/PersonaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/src/test/java/org/example/PersonaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-01_SingleThreadTCPFramework/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-02_JavaLogging/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-02_JavaLogging/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-02_JavaLogging/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-02_JavaLogging/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-02_JavaLogging/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-02_JavaLogging/src/test/java/org/example/PersonaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Ejercicio-01_SingleThreadTCPFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-01_SingleThreadTCPFramework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frameworks/Ejercicio-01_SingleThreadTCPFramework/src/main/java/org/example/Persona.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigouml.puml" beforeDir="false" afterPath="$PROJECT_DIR$/codigouml.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/CreacionDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/CreacionDecorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/ExtensionDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/ExtensionDecorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/FileOO2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/FileOO2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/ModificacionDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/ModificacionDecorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/NombreDecorador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/PermisosDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/PermisosDecorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/TamanioDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/TamanioDecorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/VistaArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/ComponenteArchivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/VistaDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/Decorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/VistaVacia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VistaArchivoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InterfaceArchivoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,28 +71,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.VistaArchivoTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/alvaro/Escritorio/Facultad/OO2/Practicas/Patrones/Ejercicio-19_FileManager&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.InterfaceArchivoTest.executor": "Run",
+    "JUnit.VistaArchivoTest.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/alvaro/Escritorio/Facultad/OO2/Practicas/Patrones/Ejercicio-19_FileManager",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a152799b-1872-498d-a642-0fe214f26187" name="Changes" comment="" />
@@ -83,6 +105,8 @@
       <workItem from="1779125897841" duration="42000" />
       <workItem from="1779126173575" duration="253000" />
       <workItem from="1779127501406" duration="12000" />
+      <workItem from="1780261400031" duration="172000" />
+      <workItem from="1780454336123" duration="2655000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicio 19: UML, implementacion y tests">
       <option name="closed" value="true" />

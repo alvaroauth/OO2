@@ -1,61 +1,58 @@
 @startuml
 top to bottom direction
 
-interface VistaArchivo {
+interface InterfaceArchivo {
     +prettyPrint(): String
+    +get...(): ...
 }
 
 together {
-    class VistaVacia implements VistaArchivo {
-        +prettyPrint(): String
+    class FileOO2 implements InterfaceArchivo{
+        -nombre: String
+        -extension: String
+        -tamanio: Integer
+        -creacion: Date
+        -modificacion: Date
+        -permisos: String
+        +<<create>> FileOO2(...)
+        +get...(): ...
     }
-    abstract class VistaDecorador implements VistaArchivo {
-        #<<create>> VistaDecorador(a: FileOO2, v: VistaArchivo)
-        +prettyPrint(): String
-        #getArchivo(): FileOO2
-        #getWrapped(): VistaArchivo
-        #<<abstract>> aspect(): String
+
+    abstract class ArchivoDecorador implements InterfaceArchivo {
+        +<<create>> ArchivoDecorador(a: InterfaceArchivo)
+        +get...(): ...
     }
 }
 
 together {
-    class NombreDecorador extends VistaDecorador {
+    class NombreDecorador extends ArchivoDecorador {
         +<<create>> NombreDecorador(...)
-        +aspect(): String
+        +prettyPrint(): String
     }
-    class ExtensionDecorador extends VistaDecorador {
+    class ExtensionDecorador extends ArchivoDecorador {
         +<<create>> ExtensionDecorador(...)
-        +aspect(): String
+        +prettyPrint(): String
     }
-    class TamanioDecorador extends VistaDecorador {
+    class TamanioDecorador extends ArchivoDecorador {
         +<<create>> TamanioDecorador(...)
-        +aspect(): String
+        +prettyPrint(): String
     }
-    class CreacionDecorador extends VistaDecorador {
+    class CreacionDecorador extends ArchivoDecorador {
         +<<create>> CreacionDecorador(...)
-        +aspect(): String
+        +prettyPrint(): String
     }
-    class ModificacionDecorador extends VistaDecorador {
+    class ModificacionDecorador extends ArchivoDecorador {
         +<<create>> ModificacionDecorador(...)
-        +aspect(): String
+        +prettyPrint(): String
     }
-    class PermisosDecorador extends VistaDecorador {
+    class PermisosDecorador extends ArchivoDecorador {
         +<<create>> PermisosDecorador(...)
-        +aspect(): String
+        +prettyPrint(): String
     }
 }
 
-class FileOO2 {
-    -nombre: String
-    -extension: String
-    -tamanio: Integer
-    -creacion: Date
-    -modificacion: Date
-    -permisos: String
-    +<<create>> FileOO2(...)
-}
 
-VistaDecorador --> VistaArchivo
-VistaDecorador -right-> FileOO2
+
+ArchivoDecorador --> InterfaceArchivo
 
 @enduml

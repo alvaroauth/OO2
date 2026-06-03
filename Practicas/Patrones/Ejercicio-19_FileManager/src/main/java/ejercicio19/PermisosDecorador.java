@@ -1,12 +1,13 @@
 package ejercicio19;
 
-public class PermisosDecorador extends VistaDecorador{
-    public PermisosDecorador(FileOO2 archivo, VistaArchivo wrapped) {
-        super(archivo, wrapped);
+public class PermisosDecorador extends Decorador {
+    public PermisosDecorador(ComponenteArchivo componente) {
+        super(componente);
     }
 
     @Override
-    protected String aspect() {
-        return this.getArchivo().getPermisos();
+    public String prettyPrint()
+    {
+        return this.componente.prettyPrint() + " - " + this.getPermisos();
     }
 }

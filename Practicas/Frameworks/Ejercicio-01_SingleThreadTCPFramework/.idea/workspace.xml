@@ -1,9 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectId" id="3EV7mYyTOxAWne0pYDXu4yDYHRY" />
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;/home/alvaro/.m2/catalogo-facultad.xml&quot;
-  }
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77abe79d-579d-4906-90e4-31ad59cb8c89" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/src/test/java/org/example/PersonaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-02_JavaLogging/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-02_JavaLogging/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-02_JavaLogging/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-02_JavaLogging/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-02_JavaLogging/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio-02_JavaLogging/src/test/java/org/example/PersonaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Patrones/Ejercicio-19_FileManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Patrones/Ejercicio-19_FileManager/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="20" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
 }</component>
+  <component name="ProjectId" id="3EV7mYyTOxAWne0pYDXu4yDYHRY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EchoServer.executor": "Run",
+    "Application.PasswordServer.executor": "Run",
+    "Application.RepeatServer.executor": "Run",
+    "Application.SingleThreadTCPServer.EchoServer.executor": "Run",
+    "Application.Unnamed.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/alvaro/Escritorio/Facultad/OO2/Practicas/Patrones/Ejercicio-19_FileManager",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.PasswordServer">
+    <configuration name="PasswordServer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio1.PasswordServer" />
+      <module name="Ejercicio-01_SingleThreadTCPFramework" />
+      <option name="PROGRAM_PARAMETERS" value="3000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepeatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio1.RepeatServer" />
+      <module name="Ejercicio-01_SingleThreadTCPFramework" />
+      <option name="PROGRAM_PARAMETERS" value="3000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleThreadTCPServer.EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingleThreadTCPServer.EchoServer" />
+      <module name="Ejercicio-01_SingleThreadTCPFramework" />
+      <option name="PROGRAM_PARAMETERS" value="3000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingleThreadTCPServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RepeatServer" />
+      <item itemvalue="Application.SingleThreadTCPServer.EchoServer" />
+      <item itemvalue="Application.PasswordServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PasswordServer" />
+        <item itemvalue="Application.RepeatServer" />
+        <item itemvalue="Application.SingleThreadTCPServer.EchoServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77abe79d-579d-4906-90e4-31ad59cb8c89" name="Changes" comment="" />
+      <created>1780252044676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780252044676</updated>
+      <workItem from="1780252045716" duration="5739000" />
+      <workItem from="1780261575006" duration="2654000" />
+      <workItem from="1780326578841" duration="3162000" />
+      <workItem from="1780332989237" duration="887000" />
+      <workItem from="1780354633620" duration="334000" />
+      <workItem from="1780454291527" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>

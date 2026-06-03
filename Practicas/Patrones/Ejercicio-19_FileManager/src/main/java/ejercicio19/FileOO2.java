@@ -2,21 +2,26 @@ package ejercicio19;
 
 import java.time.LocalDate;
 
-public class FileOO2 {
+public class FileOO2 implements ComponenteArchivo {
     private String nombre;
     private String extension;
-    private long tamanio;
+    private int tamanio;
     private LocalDate creacion;
     private LocalDate modificacion;
     private String permisos;
 
-    public FileOO2(String nombre, String extension, long tamanio, LocalDate creacion, LocalDate modificacion, String permisos) {
+    public FileOO2(String nombre, String extension, int tamanio, LocalDate creacion, LocalDate modificacion, String permisos) {
         this.nombre = nombre;
         this.extension = extension;
         this.tamanio = tamanio;
         this.creacion = creacion;
         this.modificacion = modificacion;
         this.permisos = permisos;
+    }
+
+    @Override
+    public String prettyPrint() {
+        return this.getNombre();
     }
 
     public String getNombre() {
@@ -27,7 +32,7 @@ public class FileOO2 {
         return extension;
     }
 
-    public long getTamanio() {
+    public int getTamanio() {
         return tamanio;
     }
 

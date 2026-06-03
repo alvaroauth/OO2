@@ -1,12 +1,12 @@
 package ejercicio19;
 
-public class ExtensionDecorador extends VistaDecorador{
-    public ExtensionDecorador(FileOO2 archivo, VistaArchivo wrapped) {
-        super(archivo, wrapped);
+public class ExtensionDecorador extends Decorador {
+    public ExtensionDecorador(ComponenteArchivo componente) {
+        super(componente);
     }
 
     @Override
-    protected String aspect() {
-        return this.getArchivo().getExtension();
+    public String prettyPrint(){
+        return this.componente.prettyPrint() + " - " + this.getExtension();
     }
 }

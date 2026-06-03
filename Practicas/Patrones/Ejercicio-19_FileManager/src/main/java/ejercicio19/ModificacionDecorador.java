@@ -1,18 +1,16 @@
 package ejercicio19;
 
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class ModificacionDecorador extends VistaDecorador{
-    protected ModificacionDecorador(FileOO2 archivo, VistaArchivo wrapped) {
-        super(archivo, wrapped);
+public class ModificacionDecorador extends Decorador {
+    public ModificacionDecorador(ComponenteArchivo componente) {
+        super(componente);
     }
 
-    @Override
-    protected String aspect() {
-        LocalDate fecha = this.getArchivo().getModificacion();
+    public String prettyPrint() {
+        LocalDate fecha = this.getModificacion();
         DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        return fecha.format(formato);
+        return this.componente.prettyPrint() + " - " + fecha.format(formato);
     }
 }

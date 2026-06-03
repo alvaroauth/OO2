@@ -1,12 +1,12 @@
 package ejercicio19;
 
-public class TamanioDecorador extends VistaDecorador{
-    public TamanioDecorador(FileOO2 archivo, VistaArchivo wrapped) {
-        super(archivo, wrapped);
+public class TamanioDecorador extends Decorador {
+    public TamanioDecorador(ComponenteArchivo componente) {
+        super(componente);
     }
 
     @Override
-    protected String aspect() {
-        return Long.toString(this.getArchivo().getTamanio());
+    public String prettyPrint() {
+        return this.componente.prettyPrint() + " - " + this.getTamanio();
     }
 }
