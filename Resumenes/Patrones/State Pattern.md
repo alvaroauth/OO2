@@ -50,3 +50,5 @@ La idea es que las responsabilidades de los estados sea realizar las operaciones
 	- Si bien esa es la manera mas normal y de la catedra, hay una alternativa que esta buena que las operaciones del estado concreto retornen estados. Esto generaria que ante cada operacion un estado pueda elegir entre devolverse a si mismo o devolver un nuevo estado. En el contexto esto se implementaria haciendo 
 		- `this.estado = this.estado.anotarAClase(listaInscriptos)`
 	- Entonces si la clase todavia tiene cupo se retorna a si mismo, en cambio si se lleno retorna un estado `LLeno()`
+
+- **De donde saco los datos que necesito:** Es poco comun que el state tenga conocimiento aunque puede pasar. La idea es que sean estados volatiles, aveces si es poca la informacion que se necesita se puede pasar los datos por parametro, u otras veces tiene que usar mucha info o mandarle mensajes al contexto asi que el contexto entero se pasa por parametro, se analiza la situacion particular
