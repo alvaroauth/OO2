@@ -74,7 +74,7 @@ Aca se nota como el director solo dirige, no crea ni devuelve nada
 
 El builder es asi (builder abstracto, todavia no sabe que devuelve)
 ```java
-public class Builder{
+public abstract class Builder{
 	public void agregarPan(){}
 	public void agregarAderezo(){}
 	public void agregarCarne(){}
