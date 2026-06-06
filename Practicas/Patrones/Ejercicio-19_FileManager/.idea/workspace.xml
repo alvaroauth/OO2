@@ -4,37 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a152799b-1872-498d-a642-0fe214f26187" name="Changes" comment="Ejercicio 19: UML, implementacion y tests">
-      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/src/test/java/org/example/PersonaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-01_SingleThreadTCPFramework/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-02_JavaLogging/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-02_JavaLogging/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-02_JavaLogging/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-02_JavaLogging/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-02_JavaLogging/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-02_JavaLogging/src/test/java/org/example/PersonaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Ejercicio-01_SingleThreadTCPFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frameworks/Ejercicio-01_SingleThreadTCPFramework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frameworks/Ejercicio-01_SingleThreadTCPFramework/src/main/java/org/example/Persona.java" beforeDir="false" />
+    <list default="true" id="a152799b-1872-498d-a642-0fe214f26187" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Enunciado.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/src/test/java/org/example/PersonaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/src/test/java/org/example/PersonaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigouml.puml" beforeDir="false" afterPath="$PROJECT_DIR$/codigouml.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/CreacionDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/CreacionDecorador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/ExtensionDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/ExtensionDecorador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/FileOO2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/FileOO2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/ModificacionDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/ModificacionDecorador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/NombreDecorador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/PermisosDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/PermisosDecorador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/TamanioDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/TamanioDecorador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/VistaArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/ComponenteArchivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/VistaDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio19/Decorador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio19/VistaVacia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/VistaArchivoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InterfaceArchivoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML.png" beforeDir="false" afterPath="$PROJECT_DIR$/UML.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ComponenteArchivoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ComponenteArchivoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +31,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="27" />
+    <option name="cachedIndexableFilesCount" value="25" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,7 +73,7 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/alvaro/Escritorio/Facultad/OO2/Practicas/Patrones/Ejercicio-19_FileManager",
+    "last_opened_file_path": "/home/alvaro/Escritorio/Facultad/OO2/Parciales/2025/07-06-2025/Resolucion_Patrones",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -106,7 +95,10 @@
       <workItem from="1779126173575" duration="253000" />
       <workItem from="1779127501406" duration="12000" />
       <workItem from="1780261400031" duration="172000" />
-      <workItem from="1780454336123" duration="2655000" />
+      <workItem from="1780454336123" duration="2754000" />
+      <workItem from="1780486110293" duration="2842000" />
+      <workItem from="1780520273082" duration="37000" />
+      <workItem from="1780601307386" duration="495000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicio 19: UML, implementacion y tests">
       <option name="closed" value="true" />
@@ -116,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779032537164</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".">
+      <option name="closed" value="true" />
+      <created>1780457059592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780457059592</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ejercicio 19: UML, implementacion y tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 19: UML, implementacion y tests" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

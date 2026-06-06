@@ -1,0 +1,67 @@
+@startuml
+class Afiliado<<Contexto>>{
+    -nombre: String
+    -familiaresACargo: Integer
+    -salario: Real
+    -fechaNacimiento: Date
+    +calcularMonto(): Real
+    +setPlanMedico(plan: PlanMedico): void
+}
+
+abstract class PlanMedico<<Estrategia>>{
+    -fechaContratacion: Date
+    +getFechaContratacion(): Date
+    +limitePrestaciones(): Integer
+    +calcularMonto(): Real
+    +<<abstract>>getMontoFijo(): Real
+    +<<abstract>>getCargoFamiliar(): Real
+    +<<abstract>>getCoberturaViajera(): Real
+    +<<abstract>>getSeguroInternacion(): Real
+}
+
+interface ICoseguro{
+    +getDescuento(): Real
+    +getAntiguedad(): Real
+    +getMontoCoberturaViajes(): Real
+}
+
+class Coseguro implements ICoseguro{
+    -nombre: String
+    -descuento: Integer
+    -fechaIngreso: Date
+    -montoCoberturaViajes: Real
+    +getDescuento(): Real
+    +getAntiguedad(): Real
+    +getMontoCoberturaViajes(): Real
+}
+
+class NullCoseguro implements ICoseguro{
+    +getDescuento(): Real
+    +getAntiguedad(): Real
+    +getMontoCoberturaViajes(): Real
+}
+
+class PlanObligatorio<<Estrategia Concreta>> extends PlanMedico{
+    +getMontoFijo(): Real
+    +getCargoFamiliar(): Real
+    +getCoberturaViajera(): Real
+    +getSeguroInternacion(): Real
+}
+
+class PlanIntegral<<Estrategia Concreta>> extends PlanMedico{
+    +getMontoFijo(): Real
+    +getCargoFamiliar(): Real
+    +getCoberturaViajera(): Real
+    +getSeguroInternacion(): Real
+}
+
+class PlanPremium<<Estrategia Concreta>> extends PlanMedico{
+    +getMontoFijo(): Real
+    +getCargoFamiliar(): Real
+    +getCoberturaViajera(): Real
+    +getSeguroInternacion(): Real
+}
+
+Afiliado -> ICoseguro
+PlanMedico <- Afiliado
+@enduml

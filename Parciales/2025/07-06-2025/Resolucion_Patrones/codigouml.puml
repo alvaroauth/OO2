@@ -1,0 +1,49 @@
+@startuml
+interface Componente<<Componente>>{
+    +getDescripcion(): String
+    +getDestinatario(): String
+    +getDireccionDestino(): String
+    +getValorDeclarado(): Real
+    +getCostoEnvio(): Real
+}
+
+class Paquete<<Componente Concreto>> implements Componente{
+    -descripcion: String
+    -destinatario: String
+    -getDireccionDestino: String
+    -valorDeclarado: Real
+    +getDescripcion(): String
+    +getDestinatario(): String
+    +getDireccionDestino(): String
+    +getValorDeclarado(): Real
+    +getCostoEnvio(): Real
+}
+
+abstract class PaqueteDecorador<<Decorador>> implements Componente{
+    +getDescripcion(): String
+    +getDestinatario(): String
+    +getDireccionDestino(): String
+    +getValorDeclarado(): Real
+    +getCostoEnvio(): Real
+}
+
+class SeguroDecorador<<Decorador Concreto>> extends PaqueteDecorador{
+    +getDescripcion(): String
+    +getCostoEnvio(): Real
+}
+
+class SeguimientoDecorador<<Decorador Concreto>> extends PaqueteDecorador{
+    +getCostoEnvio(): Real
+}
+
+class EntregaExpresDecorador<<Decorador Concreto>> extends PaqueteDecorador{
+    +getCostoEnvio(): Real
+    +getDescripcion(): String
+}
+
+class FragilDecorador<<Decorador Concreto>> extends PaqueteDecorador{
+    +getDescripcion(): String
+}
+
+PaqueteDecorador --> Componente
+@enduml
