@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24b1788e-b58f-41a0-835f-06789ecd3b8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Enunciado.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Parciales/2025/07-06-2025/Resolucion/src/test/java/org/example/PersonaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Parciales/2025/28-06-2025/Resolucion_Patrones/src/test/java/org/example/PersonaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio-19_FileManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-19_FileManager/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio-19_FileManager/UML.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-19_FileManager/UML.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio-19_FileManager/src/test/java/ComponenteArchivoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-19_FileManager/src/test/java/ComponenteArchivoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +83,8 @@
       <workItem from="1778859254926" duration="25000" />
       <workItem from="1779146663836" duration="375000" />
       <workItem from="1780602919896" duration="2168000" />
+      <workItem from="1781024188451" duration="3000" />
+      <workItem from="1781114302341" duration="4000" />
     </task>
     <servers />
   </component>
